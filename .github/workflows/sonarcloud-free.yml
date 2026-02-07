@@ -7,11 +7,6 @@ on:
       - 'src/**'
       - 'pom.xml'
       - '**/test/**'
-    paths-ignore:
-      - 'docs/**'
-      - '*.md'
-      - 'images/**'
-      - '.github/**'
   pull_request:
     types: [opened, synchronize, reopened]
     branches: [main, develop]
